@@ -77,7 +77,7 @@ const Navbar = () => {
             </div>
             <div>
               <h1 className="text-xl font-bold text-[#142849]">MAHFUT</h1>
-              <p className="text-sm text-gray-600">Construction Materials</p>
+              <p className="text-sm text-gray-600">Construction Supplies</p>
             </div>
           </Link>
 
