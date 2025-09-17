@@ -78,9 +78,9 @@ const Home = () => {
   ];
 
   const stats = [
-    { icon: Users, number: "500+", label: "Satisfied Clients" },
-    { icon: Building, number: "1000+", label: "Projects Completed" },
-    { icon: Award, number: "25+", label: "Years Experience" },
+    { icon: Users, number: "50+", label: "Satisfied Clients" },
+    { icon: Building, number: "100+", label: "Projects Completed" },
+    { icon: Award, number: "5+", label: "Years Experience" },
     { icon: Clock, number: "24/7", label: "Support Available" }
   ];
 

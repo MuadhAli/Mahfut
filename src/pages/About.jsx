@@ -129,11 +129,11 @@ const About = () => {
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#E46A1E] mb-2">500+</div>
+                  <div className="text-3xl font-bold text-[#E46A1E] mb-2">50+</div>
                   <div className="text-gray-600">Satisfied Clients</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#E46A1E] mb-2">1000+</div>
+                  <div className="text-3xl font-bold text-[#E46A1E] mb-2">50+</div>
                   <div className="text-gray-600">Projects Completed</div>
                 </div>
               </div>
@@ -149,7 +149,7 @@ const About = () => {
               <img  
                 className="rounded-2xl shadow-2xl w-full"
                 alt="Historical photo of MAHFUT's first construction materials warehouse"
-               src="https://images.unsplash.com/photo-1551165756-6094400f745c" />
+               src="https://images.unsplash.com/photo-1536895058696-a69b1c7ba34f?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
             </motion.div>
           </div>
         </div>
@@ -199,7 +199,7 @@ const About = () => {
       </section>
 
       {/* Company Timeline */}
-      <section className="section-padding">
+      {/* <section className="section-padding">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -247,7 +247,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Core Values */}
       <section className="section-padding bg-[#142849] text-white">
@@ -287,7 +287,7 @@ const About = () => {
       </section>
 
       {/* Leadership Team */}
-      <section className="section-padding">
+      {/* <section className="section-padding">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -327,7 +327,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </PageTransition>
   );
 };
